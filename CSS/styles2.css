@@ -27,6 +27,8 @@ body {
 	flex-direction: column;
 	margin: 0;
 	padding: 0;
+	justify-content: center;
+	width: 150%;
 }
 
 #banner-area h1 {
