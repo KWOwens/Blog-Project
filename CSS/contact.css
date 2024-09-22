@@ -1,0 +1,21 @@
+.contact-us {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	padding-top: 25px;
+	padding-inline: 40px;
+	padding-bottom: 25px;
+	background-color: rgb(235, 213, 189);
+	border-top: 5px solid rgb(95, 53, 29);
+	border-right: 3px solid rgb(95, 53, 29);
+	border-left: 3px solid rgb(95, 53, 29);
+}
+
+.contact-header {
+	color: rgb(201, 92, 59);
+	font-family: Arial, Helvetica, sans-serif;
+}

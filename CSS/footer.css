@@ -1,0 +1,16 @@
+#footer-area{
+    grid-area: ft;        
+    background-color: rgb(201, 92, 59);    
+    border-top: 5px solid rgb(95, 53, 29);
+    border-bottom: 5px solid 3px solid rgb(95, 53, 29);
+    margin-top: 0;              
+}
+
+footer p{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;   
+    padding: 15px 0;
+    color: rgb(252, 245, 237);
+    font-family: Arial, Helvetica, sans-serif;   
+}
