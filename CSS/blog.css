@@ -5,49 +5,63 @@
 	align-items: center;
 	justify-content: center;
 	height: auto;
-	/*margin-top: 25px;*/
 	margin-bottom: 0px;
 	margin-left: 5px;
-	padding-top: 75px;
-	padding-inline: 40px;
-	padding-bottom: 10px;
+	padding-top: 30px;
+	padding-bottom: 25px;
 	background-color: rgb(235, 213, 189);
 	border-top: 5px solid rgb(95, 53, 29);
 	border-right: 3px solid rgb(95, 53, 29);
 	border-left: 3px solid rgb(95, 53, 29);
+	border-bottom: 5px solid rgb(95, 53, 29);
+}
+
+.blog-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: "Trebuchet MS", "Lucida Sans", sans-serif;
+	color: rgb(201, 92, 59);
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+
+.dandelion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+
+.dandelion img {
+	max-width: 100%;
+	height: auto;
+	border: 3px solid rgba(100, 158, 100, 0.9);
+}
+
+.img-caption {
+	text-align: center;
+	margin-top: 10px;
+	width: 200px;
+	word-wrap: break-word;
+	font-family: Tahoma, sans-serif;
+	color: rgb(95, 53, 29);
+	font-size: 14.5px;
+	font-style: italic;
+	padding-bottom: 50px;
 }
 
 .main-blog p {
 	color: rgb(140, 52, 9);
-}
-
-.main-blog-header {
-	font-family: "Trebuchet MS", "Lucida Sans", sans-serif;
-	color: rgb(201, 92, 59);
-	font-size: 20px;
-	font-weight: bold;
-	margin-bottom: 10px;
-}
-
-figure {
-	display: inline-table;
-	margin-top: 0;
-}
-
-figure img {
-	display: block;
-}
-
-.perspective {
-	font-family: Tahoma, sans-serif;
-	color: rgb(95, 53, 29);
-	padding: 0.5em;
-	text-align: center;
-	letter-spacing: 0.5px;
-	font-size: 13px;
-	display: table-caption;
-	caption-side: bottom;
-	font-style: italic;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	padding-left: 60px;
+	padding-right: 60px;
+	word-wrap: break-word;
 	margin-top: 0;
 }
 
@@ -61,44 +75,54 @@ figure img {
 	grid-area: feat;
 	margin-top: 40px;
 	display: flex;
-	justify-content: center;
-	row-gap: 10px;
+	flex-direction: row;
+	padding-bottom: 15px;
 }
 
 .blog-card {
 	display: flex;
-	flex-direction: column;
-	max-width: 400px;
+	flex-direction: row;
+	height: fit-content;
 	padding: 0px;
-	gap: 15px;
+	width: 500px;
+	margin: 10px;
+	border: 3px solid rgb(95, 53, 29);
+	background-color: rgb(235, 213, 189);
 }
 
 .blog-img {
-	padding: 0px;
 	display: flex;
 	flex-direction: row;
-	width: fit-content;
-	border: 5px solid rgb(95, 53, 29);
+	height: auto;
+	width: 35%;
+	align-items: center;
+	justify-content: center;
 }
 
 .blog-feature {
 	display: flex;
-	flex-direction: row;
-	width: fit-content;
-	padding-left: 25px;
-	gap: 25px;
+	flex-direction: column;
+	column-width: 150px;
+	padding-left: 30px;
+	padding-bottom: 15px;
+	margin: 0;
 	align-items: center;
-	align-content: center;
-	background-color: rgb(235, 213, 189);
+	justify-content: center;
+}
+
+.blog-feature h3 {
+	color: rgb(201, 92, 59);
+	padding: 0;
 }
 
 .blog-feature span {
 	font-weight: bold;
 }
-.blog-feature h3 {
-	color: rgb(201, 92, 59);
-}
 
+.blog-feature button {
+	align-items: center;
+	justify-content: center;
+}
 button {
 	margin-inline: 10px;
 	background-color: rgb(226, 198, 168);
