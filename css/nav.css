@@ -1,4 +1,4 @@
-navbar {
+nav {
 	grid-area: nb;
 	display: flex;
 	flex-direction: row;
@@ -25,4 +25,14 @@ navbar {
 
 .n-links a:hover {
 	background-color: rgb(227, 197, 153);
+}
+
+@media screen and (max-width: 600px) {
+	.n-links a {
+		font-size: 1em;
+	}
+	nav {
+		height: 150px;
+		margin: auto;
+	}
 }
