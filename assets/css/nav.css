@@ -36,3 +36,24 @@ nav {
 		margin: auto;
 	}
 }
+
+@media screen and (max-width: 320px) {
+	nav {
+		height: 100px;
+		padding-right: 6px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	nav ul li {
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.n-links a {
+		font-size: 0.85em;
+		margin: 0;
+		justify-content: center;
+		align-items: center;
+		gap: 12px;
+	}
+}

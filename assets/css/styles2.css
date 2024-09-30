@@ -155,3 +155,15 @@ blockquote footer {
 		width: 100%;
 	}
 }
+
+@media screen and (max-width: 320px) {
+	#banner-area {
+		height: 125px;
+		width: 100%;
+	}
+
+	#banner-area h1 {
+		font-size: 20px;
+		padding-bottom: 5px;
+	}
+}

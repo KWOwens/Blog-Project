@@ -63,6 +63,22 @@
 	padding-right: 60px;
 	word-wrap: break-word;
 	margin-top: 0;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", Verdana, sans-serif;
+}
+
+.bold {
+	font-weight: bold;
+	color: brown;
+}
+
+.underline {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.emphasize {
+	font-style: italic;
+	color: rgb(109, 166, 99);
 }
 
 .title-button {
@@ -108,6 +124,7 @@
 	margin: 0;
 	align-items: center;
 	justify-content: center;
+	font-family: "Times New Roman", Times, serif;
 }
 
 .blog-feature h3 {
@@ -141,5 +158,58 @@ button {
 		margin-inline: 10px;
 		margin-bottom: 10px;
 		padding: 5px 9px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.main-blog {
+		margin-left: 0;
+	}
+	.blog-header {
+		align-items: center;
+		justify-content: center;
+		font-size: 25px;
+		padding-bottom: 40px;
+	}
+
+	.blog-img {
+		height: 25vh;
+		width: 40vw;
+		margin-right: 0;
+		padding-right: 0;
+	}
+	.blog-card {
+		height: fit-content;
+		width: 95%;
+		margin: 5px;
+		padding: 0;
+	}
+
+	.blog-feature {
+		column-width: 150px;
+		padding-bottom: 6px;
+		padding-left: 20px;
+	}
+
+	.blog-feature button {
+		font-size: 12px;
+		margin-bottom: 0;
+		margin-top: 5px;
+		padding: 3px 3px;
+	}
+
+	button {
+		padding: 8px;
+		margin-left: 0;
+	}
+
+	.blog-feature h3 {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.blog-feature p {
+		font-size: 14px;
+		padding: 0;
+		margin: 0;
 	}
 }
