@@ -147,7 +147,7 @@ button {
 	padding: 5px 9px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 	.main-blog {
 		margin-left: 0;
 		margin-right: 0;
@@ -221,31 +221,5 @@ button {
 		font-size: 25px;
 		padding-top: 35px;
 		padding-bottom: 20px;
-	}
-	.blog-img {
-		height: auto;
-		width: 30vw;
-		margin-right: 0;
-		padding-right: 0;
-	}
-	.blog-card {
-		width: 80%;
-	}
-	.blog-feature {
-		column-width: 150px;
-		padding-bottom: 6px;
-		margin: 0;
-	}
-	.blog-feature h3 {
-		font-size: 14px;
-	}
-	.blog-feature p {
-		font-size: 12px;
-	}
-	.blog-feature button {
-		font-size: 12px;
-		margin-bottom: 0;
-		margin-top: 5px;
-		padding: 3px 3px;
 	}
 }
