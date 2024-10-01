@@ -121,13 +121,16 @@ aside {
 @media screen and (max-width: 600px) {
 	.articles {
 		font-size: 18px;
-		padding-top: 20px;
+		padding-top: 30px;
 		padding-bottom: 10px;
 	}
 
 	.article-links {
 		padding-bottom: 0;
 		text-align: center;
+	}
+	.socials {
+		padding-top: 50px;
 	}
 }
 
