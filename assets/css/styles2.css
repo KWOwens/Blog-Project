@@ -149,11 +149,12 @@ blockquote footer {
 	}
 	.ba-caption {
 		font-size: 14px;
+		letter-spacing: 1.25px;
 		flex-wrap: wrap;
 		padding-bottom: 0;
 	}
 	#banner-area h1 {
-		font-size: 30px;
+		font-size: 27px;
 		padding-top: 15px;
 	}
 	#banner-area {
@@ -181,14 +182,14 @@ blockquote footer {
 		width: 100%;
 	}
 	#banner-area h1 {
-		font-size: 20px;
+		font-size: 19px;
 		padding-bottom: 5px;
 	}
 	.ba-caption {
-		font-size: 15px;
+		font-size: 12px;
 		text-align: center;
 		text-wrap: balance;
-		letter-spacing: 3px;
+		letter-spacing: 1px;
 		line-height: 20px;
 	}
 	blockquote {

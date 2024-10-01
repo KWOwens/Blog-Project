@@ -222,48 +222,30 @@ button {
 		padding-top: 35px;
 		padding-bottom: 20px;
 	}
-
 	.blog-img {
 		height: auto;
-		width: 35vw;
+		width: 30vw;
 		margin-right: 0;
 		padding-right: 0;
 	}
 	.blog-card {
-		height: fit-content;
-		width: 100%;
-		margin: 5px;
-		padding-right: 3px;
+		width: 80%;
 	}
-
 	.blog-feature {
 		column-width: 150px;
 		padding-bottom: 6px;
-		padding-left: 2.5px;
-		padding-right: 2.5px;
+		margin: 0;
 	}
-
+	.blog-feature h3 {
+		font-size: 14px;
+	}
+	.blog-feature p {
+		font-size: 12px;
+	}
 	.blog-feature button {
 		font-size: 12px;
 		margin-bottom: 0;
 		margin-top: 5px;
 		padding: 3px 3px;
-	}
-
-	button {
-		padding: 8px;
-		margin-left: 8px;
-	}
-
-	.blog-feature h3 {
-		font-size: 15px;
-		margin-bottom: 10px;
-		text-align: center;
-	}
-	.blog-feature p {
-		font-size: 13px;
-		padding: 0;
-		margin: 0;
-		text-align: center;
 	}
 }
