@@ -148,15 +148,21 @@ blockquote footer {
 		border-right: 3px solid rgb(95, 53, 29);
 	}
 	.ba-caption {
-		font-size: 18px;
+		font-size: 14px;
 		flex-wrap: wrap;
+		padding-bottom: 0;
 	}
 	#banner-area h1 {
-		font-size: 24px;
+		font-size: 30px;
+		padding-top: 15px;
 	}
 	#banner-area {
-		height: 200px;
+		height: auto;
 		width: 100%;
+		justify-content: center;
+		align-items: center;
+		padding-top: 20px;
+		padding-bottom: 5px;
 	}
 
 	.title-button {
@@ -180,7 +186,8 @@ blockquote footer {
 	}
 	.ba-caption {
 		font-size: 15px;
-		text-wrap: pretty;
+		text-align: center;
+		text-wrap: balance;
 		letter-spacing: 3px;
 		line-height: 20px;
 	}

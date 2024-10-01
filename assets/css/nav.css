@@ -30,9 +30,14 @@ nav {
 @media screen and (max-width: 600px) {
 	nav {
 		height: 100px;
+		justify-content: center;
+		align-items: center;
 	}
 	.n-links {
 		gap: 20px;
+		padding-left: 10px;
+		justify-content: center;
+		align-items: center;
 	}
 	.n-links a {
 		font-size: 1em;
@@ -42,10 +47,15 @@ nav {
 @media screen and (max-width: 425px) {
 	nav {
 		height: 100px;
+		padding-left: 15px;
+		justify-content: center;
+		align-items: center;
 	}
 	.n-links {
 		gap: 18px;
 		padding-left: 20px;
+		justify-content: center;
+		align-items: center;
 	}
 	.n-links a {
 		font-size: 0.9em;
