@@ -73,7 +73,7 @@ body {
 	height: auto;
 	margin-top: 0;
 	margin-bottom: 0px;
-	margin-left: 5px;
+	margin-left: 0;
 	padding-top: 25px;
 	padding-inline: 40px;
 	background-color: rgb(235, 213, 189);
@@ -107,13 +107,13 @@ main p {
 }
 blockquote {
 	border-bottom: solid 2px rgba(57, 55, 55, 0.642);
-	padding-inline: 30px;
+	padding-inline: 5px;
 	padding-bottom: 70px;
-	margin-bottom: 25px;
+	margin-bottom: 5px;
 }
 
 blockquote p {
-	font-family: "Lucida Sans", "Lucida Grande", Geneva, Verdana, sans-serif;
+	font-family: "Lucida Sans", "Lucida Grande", Verdana, sans-serif;
 	font-size: 20px;
 	font-style: italic;
 	color: black;
@@ -139,31 +139,85 @@ blockquote footer {
 	.img-container {
 		flex-direction: column;
 		width: 98%;
+		justify-content: center;
+		align-items: center;
 	}
 	.banner-img {
 		width: 100%;
+		border-left: 3px solid rgb(95, 53, 29);
+		border-right: 3px solid rgb(95, 53, 29);
 	}
 	.ba-caption {
-		font-size: 15px;
+		font-size: 18px;
 		flex-wrap: wrap;
 	}
 	#banner-area h1 {
-		font-size: 28px;
+		font-size: 24px;
 	}
 	#banner-area {
 		height: 200px;
 		width: 100%;
 	}
+
+	.title-button {
+		padding: 5px 9px;
+		margin-top: 45px;
+		margin-bottom: 20px;
+	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
+	.home {
+		margin: 0;
+	}
 	#banner-area {
 		height: 125px;
 		width: 100%;
 	}
-
 	#banner-area h1 {
 		font-size: 20px;
 		padding-bottom: 5px;
+	}
+	.ba-caption {
+		font-size: 15px;
+		text-wrap: pretty;
+		letter-spacing: 3px;
+		line-height: 20px;
+	}
+	blockquote {
+		padding-inline: 0;
+		padding-bottom: 30px;
+		margin-bottom: 10px;
+	}
+	blockquote p {
+		font-size: 15px;
+		text-align: center;
+		text-wrap: balance;
+	}
+	blockquote footer {
+		font-size: 12px;
+		text-align: center;
+		padding-top: 15px;
+	}
+
+	.home-title {
+		font-size: 25px;
+	}
+
+	.home p {
+		font-size: 14px;
+		text-align: center;
+		text-wrap: balance;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	.title-button {
+		padding: 5px 9px;
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	aside {
+		padding-top: 10px;
+		margin-top: 20px;
 	}
 }

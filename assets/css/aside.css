@@ -117,3 +117,29 @@ aside {
 	list-style: none;
 	align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+	.articles {
+		font-size: 18px;
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+
+	.article-links {
+		padding-bottom: 0;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.articles {
+		font-size: 18px;
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+
+	.article-links {
+		padding-bottom: 0;
+		text-align: center;
+	}
+}
