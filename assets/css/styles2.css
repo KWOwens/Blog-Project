@@ -123,7 +123,7 @@ blockquote footer {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 	.blueprint {
 		grid-template-areas:
 			"ha"

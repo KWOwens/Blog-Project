@@ -17,7 +17,7 @@ footer p {
 	letter-spacing: 1px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) and (min-width: 468px) {
 	#footer-area {
 		justify-content: center;
 		align-items: center;
