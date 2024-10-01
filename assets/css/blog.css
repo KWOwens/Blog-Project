@@ -170,28 +170,25 @@ button {
 		height: fit-content;
 		width: 90%;
 		margin: 5px;
+		padding: 0;
 	}
 
 	.blog-feature {
 		column-width: 150px;
 		padding-bottom: 6px;
-		padding-left: 2.5px;
-		padding-right: 2.5px;
+		margin-left: 10px;
 	}
 
 	.blog-feature h3 {
 		font-size: 16px;
 		padding-top: 5px;
-		padding-left: 40px;
+		padding-left: 0;
 		padding-bottom: 5px;
 		margin: 0;
 		text-align: center;
 	}
 	.blog-feature p {
 		font-size: 14px;
-		padding-left: 40px;
-		padding-bottom: 10px;
-		margin: 0;
 	}
 
 	#blog-page {
