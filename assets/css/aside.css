@@ -138,7 +138,7 @@ aside {
 	}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 467px) {
 	.articles {
 		font-size: 18px;
 		padding-top: 20px;
@@ -148,5 +148,14 @@ aside {
 	.article-links {
 		padding-bottom: 0;
 		text-align: center;
+	}
+	aside {
+		padding-top: 15px;
+		padding-left: 8px;
+		padding-right: 8px;
+		margin-top: 15px;
+		margin-left: 0;
+		margin-right: 0;
+		width: auto;
 	}
 }
