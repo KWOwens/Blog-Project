@@ -10,7 +10,9 @@ body {
 .blueprint {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: auto 60px 2fr 2fr auto;
+	grid-template-rows: auto 60px 2fr auto auto;
+	padding-bottom: 40px;
+	margin-bottom: auto;
 	grid-template-areas:
 		"ha img img img"
 		"nb nb nb nb"
@@ -18,7 +20,6 @@ body {
 		"feat feat feat feat"
 		"ft ft ft ft";
 }
-
 #banner-area {
 	grid-area: ha;
 	display: flex;
@@ -28,7 +29,6 @@ body {
 	justify-content: center;
 	width: 150%;
 }
-
 #banner-area h1 {
 	color: rgb(252, 245, 237);
 	font-family: Geneva, Veranda, sans-serif;
@@ -37,7 +37,6 @@ body {
 	margin-bottom: 5px;
 	text-align: center;
 }
-
 .ba-caption {
 	color: rgb(252, 245, 237);
 	font-family: "Times New Roman", Times, serif;
@@ -48,7 +47,6 @@ body {
 	padding-top: 0;
 	text-align: center;
 }
-
 .img-container {
 	grid-area: img;
 	display: flex;
@@ -57,13 +55,11 @@ body {
 	justify-content: flex-end;
 	padding: 0;
 }
-
 .banner-img {
 	width: 80%;
 	border-left: 5px solid rgb(95, 53, 29);
 	margin-right: 0;
 }
-
 .home {
 	grid-area: mn;
 	display: flex;
@@ -82,11 +78,9 @@ body {
 	border-left: 3px solid rgb(95, 53, 29);
 	border-bottom: 5px solid rgb(95, 53, 29);
 }
-
 main p {
 	color: rgb(140, 52, 9);
 }
-
 .home-title {
 	font-family: "Trebuchet MS", "Lucida Sans", sans-serif;
 	color: rgb(201, 92, 59);
@@ -94,12 +88,10 @@ main p {
 	padding-top: 15px;
 	margin-bottom: 10px;
 }
-
 .home p {
 	font-family: Verdana, Tahoma, sans-serif;
 	font-size: 14px;
 }
-
 .title-button {
 	background-color: rgb(226, 198, 168);
 	padding: 5px 9px;
@@ -111,7 +103,6 @@ blockquote {
 	padding-bottom: 70px;
 	margin-bottom: 5px;
 }
-
 blockquote p {
 	font-family: "Lucida Sans", "Lucida Grande", Verdana, sans-serif;
 	font-size: 20px;
@@ -122,7 +113,6 @@ blockquote footer {
 	font-size: 13px;
 	font-family: Arial, Helvetica, sans-serif;
 }
-
 @media screen and (max-width: 768px) and (min-width: 468px) {
 	.blueprint {
 		grid-template-areas:
@@ -171,7 +161,6 @@ blockquote footer {
 		margin-bottom: 20px;
 	}
 }
-
 @media screen and (max-width: 467px) {
 	body {
 		margin: 0;

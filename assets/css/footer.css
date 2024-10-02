@@ -5,7 +5,6 @@
 	border-bottom: 5px solid 3px solid rgb(95, 53, 29);
 	margin-top: 0;
 }
-
 footer p {
 	display: flex;
 	flex-direction: row;
@@ -16,7 +15,6 @@ footer p {
 	font-size: 17px;
 	letter-spacing: 1px;
 }
-
 @media screen and (max-width: 768px) and (min-width: 468px) {
 	#footer-area {
 		justify-content: center;
@@ -32,7 +30,6 @@ footer p {
 		text-align: center;
 	}
 }
-
 @media screen and (max-width: 425px) {
 	#footer-area {
 		justify-content: center;
