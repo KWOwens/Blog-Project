@@ -44,7 +44,7 @@ nav {
 	}
 }
 
-@media screen and (max-width: 467px) and (min-width: 374px) {
+@media screen and (max-width: 467px) and (min-width: 376px) {
 	nav {
 		height: 100px;
 		justify-content: center;

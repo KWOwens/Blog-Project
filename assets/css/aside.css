@@ -118,7 +118,11 @@ aside {
 	align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 468px) {
+	.avatar {
+		height: auto;
+		width: 35%;
+	}
 	.articles {
 		font-size: 18px;
 		padding-top: 30px;
